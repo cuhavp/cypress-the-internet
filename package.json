@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "chai-sorted": "^0.2.0",
+    "cypress": "^13.6.0"
+  }
+}
