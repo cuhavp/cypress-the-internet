@@ -1,9 +1,9 @@
-name: Artifacts
+name: E2E
 on: push
 jobs:
     cypress-run:
         runs-on: ubuntu-22.04
-        name: Artifacts
+        name: E2E Test
         steps:
             - uses: actions/checkout@v4
             - uses: cypress-io/github-action@v6
